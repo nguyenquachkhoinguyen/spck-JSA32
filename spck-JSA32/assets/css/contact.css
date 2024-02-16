@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+/* Header */
+
+
+h2 {
+    color: black;
+    font-size: 30px;
+    position: relative;
+}
+
+.header {
+    /* background-color: rgb(15, 211, 15); */
+    opacity: 0.9;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-box i {
+    color: black;
+    position: relative;
+    right: 15px;
+
+}
+
+.nav-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-box input {
+    /* height: 20px; */
+    padding: 8px 0px 8px 7px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.search-box i {
+    color: black;
+    font-size: 18px;
+}
+
+.contact-container {
+    width: 45%;
+    height: 580px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border: none;
+    margin: 0 auto;
+}
+
+.huhh {
+    padding-top: 20px;
+    /* text-align: left; */
+}
+
+.huhh h2 {
+    /* font-weight: bolder; */
+    font-size: 30px;
+}
+
+.eh {
+    margin: 15px;
+    padding: 15px 280px 15px 20px;
+}
+
+.tin {
+    padding: 20px 280px 200px 20px;
+    margin: 15px;
+}
+
+.contact-box input {
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nutsend button {
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    font-weight: 520;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* background-color: rgb(234, 134, 237); */
+    border: none;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nutsend button:hover {
+    background-color: black;
+    color: #fff;
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+
+body {
+    background-image: url(https://gspace.vn/web/media/images/2021/03/25/phong-khach-1-rs650.jpg);
+    background-size: cover;
+}

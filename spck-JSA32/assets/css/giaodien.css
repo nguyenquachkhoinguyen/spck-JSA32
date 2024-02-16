@@ -1,0 +1,189 @@
+/* Header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-image: url(https://gspace.vn/web/media/images/2021/03/25/phong-khach-1-rs650.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    position: relative;
+}
+
+.header {
+    /* background-color: rgb(15, 211, 15); */
+    opacity: 0.9;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+
+.nav-box i {
+    color: black;
+    position: relative;
+    right: 15px;
+
+}
+
+.nav-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-box input {
+    /* height: 20px; */
+    padding: 8px 0px 8px 7px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.search-box i {
+    color: black;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    opacity: 0.8;
+    background-color: black;
+    height: 190px;
+    width: 100%;
+}
+
+.icons {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.icons a {
+    text-decoration: none;
+    padding: 0px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.icons a i {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    opacity: 0.9;
+    margin: 15px;
+}
+
+.icons a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.icons a:hover i {
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.ft {
+    margin: 30px 0;
+}
+
+
+.ft a {
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.8s;
+
+}
+
+.ft a:hover {
+    color: #fff;
+    opacity: 3;
+}
+
+.footer-box {
+    width: 100%;
+    background-color: black;
+    height: 130px;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+/* Mycontent */
+
+.mycontent {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    margin-bottom: 8%;
+
+}
+
+.mycontent .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+
+.mycontent h1 {
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    color: rgb(38, 66, 52);
+}
+
+.mycontent p {
+    color: rgb(38, 66, 52);
+}
+
+.mycontent .cn {
+    width: 160px;
+    height: 40px;
+    background-color: #afafaf;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.mycontent .cn a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.cn:hover {
+    background-color: rgb(100, 198, 100);
+    transition: 0.5s;
+}

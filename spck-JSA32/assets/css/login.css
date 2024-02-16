@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.sao {
+    color: black;
+    font-size: 30px;
+    position: relative;
+}
+
+.header {
+    /* background-color: rgb(15, 211, 15); */
+    opacity: 0.9;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-box i {
+    color: black;
+    position: relative;
+    right: 15px;
+
+}
+
+.nav-box a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-box input {
+    padding: 8px 0px 8px 7px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.search-box i {
+    color: black;
+    font-size: 18px;
+}
+
+
+
+.lll {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.warpper {
+    width: 420px;
+    /* background-color: blueviolet;     */
+    backdrop-filter: blur(20px);
+    color: #333;
+    border-radius: 15px;
+    padding: 30px 40px;
+    border: 1.5px solid #fff;
+
+}
+
+.warpper h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.warpper .o {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.o input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding: 20px 40px 15px 15px;
+}
+
+.o input::placeholder {
+    color: #333;
+}
+
+.o i {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 15px;
+}
+
+.warpper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #333;
+    margin-right: 3px;
+
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    /* color: #fff */
+    color: #333;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.warpper .tapnut {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 550;
+    color: #333;
+}
+
+.warpper .register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    /* color: #fff; */
+    color: #333;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(https://gspace.vn/web/media/images/2021/03/25/phong-khach-1-rs650.jpg);
+    background-size: cover;
+}

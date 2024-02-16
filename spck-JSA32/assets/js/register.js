@@ -39,13 +39,36 @@ register.addEventListener("submit", (event) => {
         alert("Mật khẩu không đúng")
         return
     } else {
-        let users = JSON.parse(localStorage.getItem("user"))
-        users.push({
-            email: email.value.trim(),
-            pw: pw.value.trim()
-        })
-        localStorage.setItem("user", JSON.stringify(users))
+        // let users = JSON.parse(localStorage.getItem("user"));
+        // users.push({
+        //     email: email.value.trim(),
+        //     pw: pw.value.trim()
+        // })
+        // localStorage.setItem("user", JSON.stringify(users))
+
+
+        if (localStorage.users) {
+            //trong lần tạo tài khoản thứ 2
+            let users = JSON.parse(localStorage.users)
+            users.push({
+                email: email.value.trim(),
+                pw: pw.value.trim()
+            })
+            localStorage.setItem("user", JSON.stringify(users))
+        } else {
+
+            localStorage.setItem("user", JSON.stringify(
+                [
+                    {
+                        email: email.value.trim(),
+                        pw: pw.value.trim()
+                    }
+                ]
+            ))
+        }
+
+
         alert("Đăng ký thành công")
-        window.location.href = "../login.html"
+        window.location.href = "./login.html"
     }
 })

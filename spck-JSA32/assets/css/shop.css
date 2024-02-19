@@ -102,7 +102,7 @@ a {
 #products .card .image-container img {
     max-width: 100%;
     object-fit: contain;
-    height: 200px;
+    height: 320px;
     box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
 }
 
@@ -142,6 +142,13 @@ a {
     color: white;
 }
 
+/* body */
+
+/* body {
+    background-image: url(https://gspace.vn/web/media/images/2021/03/25/phong-khach-1-rs650.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 /* header */
 
@@ -273,4 +280,26 @@ footer {
     align-items: center;
     text-align: center;
     margin-top: 20px;
+}
+
+.poppy button {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #f6f6f6;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    color: black;
+}
+
+.poppy {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.poppy button:hover {
+    background-color: #dcdcdc;
+    transition: 0.5s;
 }

@@ -155,8 +155,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding: 20px;
-    margin: 5px; */
 }
 
 .kobiet {
@@ -170,7 +168,6 @@ footer {
     padding-bottom: 90px;
     margin: 5px;
     margin-bottom: 20px;
-    /* border: 1px solid black; */
     border: none;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -206,12 +203,10 @@ button {
     padding: 9px;
     color: black;
     font-size: 15px;
-    /* border: 1px solid rgb(61, 212, 61); */
     border-radius: 50px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border: 1.3px solid black;
     text-align: center;
-    /* background-color: rgb(61, 212, 61); */
 }
 
 button:hover {
@@ -245,7 +240,7 @@ body {
 
 .img-bigcontainer .banner-img .banner-slide {
     width: 1000px;
-    height: 520px;
+    height: 580px;
     margin-top: 4.5%;
     margin-bottom: 4.5%;
 }
